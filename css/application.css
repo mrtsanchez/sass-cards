@@ -31,13 +31,6 @@ html {
     content: "";
     display: table; }
 
-#cards {
-  float: left;
-  display: block;
-  width: 102.35765%; }
-  #cards:last-child {
-    width: 100%; }
-
 .card1, .card2, .card3, .card4 {
   float: left;
   display: block;
@@ -73,9 +66,11 @@ html {
     .card1, .card2, .card3, .card4 {
       float: left;
       display: block;
-      width: 51.17883%; }
+      margin-right: 2.35765%;
+      width: 48.82117%;
+      margin: 0; }
       .card1:last-child, .card2:last-child, .card3:last-child, .card4:last-child {
-        width: 48.82117%; } }
+        margin-right: 0; } }
   @media screen and (max-width: 667px) {
     .card1, .card2, .card3, .card4 {
       float: left;

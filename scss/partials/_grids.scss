@@ -5,17 +5,18 @@
    @include outer-container(100%);
 }
 
-#cards {
-  @include span-columns(12, block-collapse);
-}
+// #cards {
+//   @include span-columns(12, block-collapse);
+// }
 
 %card {
-  @include span-columns (3 of 12);
+  @include span-columns (3);
   @include card;
   min-height: 100vh;
 
   @media screen and #{$screen-tablet} {
-    @include span-columns(6 of 12, block-collapse);
+    @include span-columns(6 of 12);
+    margin: 0;
   }
   @media screen and #{$screen-mobile} {
     @include span-columns(12 of 12);
