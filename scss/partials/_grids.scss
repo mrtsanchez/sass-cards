@@ -6,7 +6,7 @@
 }
 
 #cards {
-  @include span-columns(12);
+  @include span-columns(12, block-collapse);
 }
 
 %card {
@@ -19,7 +19,6 @@
   }
   @media screen and #{$screen-mobile} {
     @include span-columns(12 of 12);
-
   }
 }
 

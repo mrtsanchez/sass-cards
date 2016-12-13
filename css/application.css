@@ -34,10 +34,9 @@ html {
 #cards {
   float: left;
   display: block;
-  margin-right: 2.35765%;
-  width: 100%; }
+  width: 102.35765%; }
   #cards:last-child {
-    margin-right: 0; }
+    width: 100%; }
 
 .card1, .card2, .card3, .card4 {
   float: left;
