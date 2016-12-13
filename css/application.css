@@ -31,6 +31,13 @@ html {
     content: "";
     display: table; }
 
+.row {
+  float: left;
+  display: block;
+  width: 102.35765%; }
+  .row:last-child {
+    width: 100%; }
+
 .card1, .card2, .card3, .card4 {
   float: left;
   display: block;
@@ -108,7 +115,8 @@ html {
 .navbar {
   height: 60px;
   width: 100%;
-  background-color: white; }
+  background-color: white;
+  display: inline; }
 
 .logo {
   height: 60px;

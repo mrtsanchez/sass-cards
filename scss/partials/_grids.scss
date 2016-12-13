@@ -5,12 +5,12 @@
    @include outer-container(100%);
 }
 
-// #cards {
-//   @include span-columns(12, block-collapse);
-// }
+.row {
+  @include span-columns(12, block-collapse);
+}
 
 %card {
-  @include span-columns (3);
+  @include span-columns (3 of 12);
   @include card;
   min-height: 100vh;
 
