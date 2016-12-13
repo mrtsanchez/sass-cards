@@ -1,0 +1,45 @@
+@import "libraries/neat/neat.scss";
+@import "libraries/bourbon/bourbon.scss";
+
+.container {
+   @include outer-container(100%);
+}
+
+#cards {
+  @include span-columns(12);
+}
+
+%card {
+  @include span-columns (3 of 12);
+  @include card;
+  min-height: 100vh;
+
+  @media screen and #{$screen-tablet} {
+    @include span-columns(6 of 12, block-collapse);
+  }
+  @media screen and #{$screen-mobile} {
+    @include span-columns(12 of 12);
+
+  }
+}
+
+.card-footer {
+  @include span-columns(12, block-collapse);
+  margin-top: 20px;
+  border-top: 1px solid;
+  border-color: white;
+}
+
+.when, .where {
+  @include span-columns(6 of 12, block-collapse);
+  padding-top: 20px;
+  color: $secondary-text-color;
+}
+
+.where {
+  text-align: right;
+}
+
+.when {
+  text-align: left;
+}

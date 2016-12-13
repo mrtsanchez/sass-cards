@@ -1,0 +1,191 @@
+html {
+  font-size: 100%; }
+
+body {
+  font-family: sans-serif;
+  font-size: 13px;
+  line-height: 1.4;
+  color: #011638; }
+
+body,
+input,
+select,
+textarea {
+  font-family: sans-serif; }
+
+h1 {
+  color: #4C212A; }
+
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
+.container {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto; }
+  .container::after {
+    clear: both;
+    content: "";
+    display: table; }
+
+#cards {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%; }
+  #cards:last-child {
+    margin-right: 0; }
+
+.card1, .card2, .card3, .card4 {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 23.23176%;
+  position: relative;
+  padding: 20px;
+  text-align: center;
+  min-height: 100vh; }
+  .card1:last-child, .card2:last-child, .card3:last-child, .card4:last-child {
+    margin-right: 0; }
+  .card1 img, .card2 img, .card3 img, .card4 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    border-width: 0.2em;
+    border-style: solid;
+    border-color: white;
+    margin-bottom: 15px; }
+  .card1 a, .card2 a, .card3 a, .card4 a {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    margin-top: 1.5em;
+    padding: 0.5em 1em;
+    border: 2px solid;
+    border-color: white;
+    border-radius: 15px; }
+  .card1 p, .card2 p, .card3 p, .card4 p {
+    text-align: justify; }
+  @media screen and (max-width: 768px) {
+    .card1, .card2, .card3, .card4 {
+      float: left;
+      display: block;
+      width: 51.17883%; }
+      .card1:last-child, .card2:last-child, .card3:last-child, .card4:last-child {
+        width: 48.82117%; } }
+  @media screen and (max-width: 667px) {
+    .card1, .card2, .card3, .card4 {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 100%; }
+      .card1:last-child, .card2:last-child, .card3:last-child, .card4:last-child {
+        margin-right: 0; } }
+
+.card-footer {
+  float: left;
+  display: block;
+  width: 102.35765%;
+  margin-top: 20px;
+  border-top: 1px solid;
+  border-color: white; }
+  .card-footer:last-child {
+    width: 100%; }
+
+.when, .where {
+  float: left;
+  display: block;
+  width: 51.17883%;
+  padding-top: 20px;
+  color: white; }
+  .when:last-child, .where:last-child {
+    width: 48.82117%; }
+
+.where {
+  text-align: right; }
+
+.when {
+  text-align: left; }
+
+.navbar {
+  height: 60px;
+  width: 100%;
+  background-color: white; }
+
+.logo {
+  height: 60px;
+  width: 60px;
+  margin-left: 10px; }
+  .logo img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%; }
+
+.card1::after {
+  content: "";
+  background: url("../img/vendimia-bg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.4;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1; }
+
+.card2::after {
+  content: "";
+  background: url("../img/anguiano.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.4;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1; }
+
+.card3::after {
+  content: "";
+  background: url("../img/marquesderiscal.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.4;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1; }
+
+.card4::after {
+  content: "";
+  background: url("../img/laurel-calle.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.4;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1; }
+
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
+/*# sourceMappingURL=application.css.map */

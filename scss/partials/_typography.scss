@@ -1,0 +1,21 @@
+html {
+  font-size: 100%;
+}
+
+body {
+  font-family: $base-font-family;
+  font-size: $base-font-size;
+  line-height: $base-line-height;
+  color: $base-text-color;
+}
+
+body,
+input,
+select,
+textarea {
+  font-family: $base-font-family;
+}
+
+h1 {
+  color: $title-text-color;
+}

@@ -1,0 +1,27 @@
+.card1 {
+  @extend %card;
+  &::after {
+      @include transparent-background("../img/vendimia-bg.jpg");
+    }
+}
+
+.card2 {
+  @extend %card;
+  &::after {
+      @include transparent-background("../img/anguiano.jpg");
+    }
+}
+
+.card3 {
+  @extend %card;
+  &::after {
+      @include transparent-background("../img/marquesderiscal.jpg");
+    }
+}
+
+.card4 {
+  @extend %card;
+  &::after {
+      @include transparent-background("../img/laurel-calle.jpg");
+    }
+}
